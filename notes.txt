@@ -1,0 +1,4 @@
+examples of commonly used commands:
+pytest -s -v .\src\models\repository\events_repository_test.py
+.\.venv\Scripts\pip3 install -r .\requirements.txt
+python -m venv .venv;.\.venv\Scripts\activate;.\.venv\Scripts\python -m pip install --upgrade pip 

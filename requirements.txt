@@ -1,0 +1,4 @@
+SQLAlchemy
+pytest
+Flask
+Flask-Cors
