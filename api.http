@@ -1,0 +1,45 @@
+POST http://localhost:3333/events
+Content-Type:  application/json
+
+{
+    "title": "Small event",
+    "details": "A description for the event",
+    "maximumAttendees": 1
+}
+
+###
+POST http://localhost:3333/events/3e57ef29-fe77-4295-ac40-17321a883646/attendees
+Content-Type:  application/json
+
+{
+    "name": "Bruno",
+    "email": "email2@mail.com"
+}
+
+###
+GET http://localhost:3333/events/3e57ef29-fe77-4295-ac40-17321a883646
+Content-Type:  application/json
+
+{
+}
+
+###
+GET http://localhost:3333/attendees/1/badge
+Content-Type:  application/json
+
+{
+}
+
+###
+GET http://localhost:3333/attendees/2/check-in
+Content-Type:  application/json
+
+{
+}
+
+###
+GET http://localhost:3333/events/3e57ef29-fe77-4295-ac40-17321a883646/attendees?query=Caio
+Content-Type:  application/json
+
+{
+}

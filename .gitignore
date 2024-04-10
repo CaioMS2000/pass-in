@@ -34,3 +34,5 @@ build/
 
 ### others
 .venv
+node_modules
+**/migration*
